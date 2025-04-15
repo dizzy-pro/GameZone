@@ -999,6 +999,11 @@ body {
   opacity: 0.5;
 }
 
+.about-section .contant .icon-list li a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
 .about-section .contant .icon-list li:hover {
   opacity: 1;
 }
