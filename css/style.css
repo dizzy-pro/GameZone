@@ -475,8 +475,7 @@ body {
 
 .choose-section .contant {
   overflow: hidden;
-  margin-left: 200px;
-  margin-right: 100px;
+  margin-left: 150px;
 }
 
 .choose-section .contant .col1 {
@@ -621,8 +620,8 @@ body {
 .pricing-section .contant .col {
   width: 29%;
   position: relative;
-  margin-right: 50px;
-  padding: 30px 10px;
+  margin-right: 40px;
+  padding: 30px 20px;
   float: left;
   text-align: center;
   border: 1px solid blueviolet;
@@ -700,7 +699,7 @@ body {
 .des-section .contant {
   overflow: hidden;
   margin: 0 250px;
-  padding-top: 150px;
+  padding-top: 100px;
   color: white;
 }
 
@@ -712,8 +711,8 @@ body {
 
 .des-section .contant .col .profile {
   overflow: hidden;
-  margin-bottom: 10px;
-  width: 75%;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .des-section .contant .col .left-img {
@@ -728,9 +727,10 @@ body {
 }
 
 .des-section .contant .col .info {
-  float: right;
+  float: left;
   padding-top: 15px;
   font-size: 18px;
+  margin-left: 20px;
 }
 
 .des-section .contant .col .info p {
@@ -763,6 +763,10 @@ body {
 .team-section {
   height: 100vh;
   background-color: rgba(138, 43, 226, 0.2);
+}
+
+.team-section .title {
+  width: 600px;
 }
 
 .team-section .contant {
@@ -845,9 +849,10 @@ body {
 }
 
 .team-section .contant .col:hover .icon-list li {
-  background-color: blueviolet;
-  font-size: 30px;
-  padding: 5px;
+  background-color: rgb(255 255 255 / 70%);
+  font-size: 25px;
+  margin: 0 0 3px;
+  border-radius: 30%;
 }
 
 .team-section .contant .col:hover h3 {
@@ -864,6 +869,10 @@ body {
 
 .news-section {
   height: 100vh;
+}
+
+.news-section .title {
+  width: 500px;
 }
 
 .news-section .contant {
@@ -907,7 +916,7 @@ body {
 }
 
 .news-section .contant .col span {
-  padding: 5px;
+  padding: 15px;
   font-weight: bold;
 }
 .news-section .contant .col span i {
@@ -979,16 +988,16 @@ body {
 }
 
 .about-section .contant .icon-list {
-  margin: 25px;
+  margin: 15px;
   list-style: none;
 }
 
 .about-section .contant .icon-list li {
   display: inline;
-  font-size: 55px;
+  font-size: 40px;
   color: blueviolet;
   padding-right: 5px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .about-section .contant .icon-list li:hover {
